@@ -108,7 +108,7 @@ Options:
   --ignore <dir>        Ignore directory from being watched and during
                         collection (multi-allowed).
   --ext <exts>          Comma-separated list of file extensions that can
-                        trigger a new test run when changed (default: .py).
+                        trigger a new test run when changed [default: .py].
                         Use --ext=* to allow any file (including .pyc).
   --config <file>       Load configuration from `file` instead of trying to
                         locate one of the implicit configuration files.
@@ -126,7 +126,7 @@ Options:
   --pdb                 Start the interactive Python debugger on errors.
                         This also enables --wait to prevent pdb interruption.
   --spool <delay>       Re-run after a delay (in milliseconds), allowing for
-                        more file system events to queue up (default: 200 ms).
+                        more file system events to queue up [default: 200].
   -p --poll             Use polling instead of OS events (useful in VMs).
   -v --verbose          Increase verbosity of the output.
   -q --quiet            Decrease verbosity of the output (precedence over -v).
